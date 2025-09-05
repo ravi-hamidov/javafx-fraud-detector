@@ -1,0 +1,73 @@
+========================================
+       FIRILDAQCILIQ HESABATI
+========================================
+Hesabat Tarixi: 2025-09-05 05:44:56
+Askarlanan Subheli Emeliyyatlarin Sayi: 7
+----------------------------------------
+
+Emeliyyat #1:
+  - Transaction ID: t019
+  - User ID: u009
+  - Nov: Transaction
+  - Mebleg: 50.00 AZN
+  - Zaman: 2025-09-05 21:15:00
+  - Mekan: CREDIT_CARD
+  - SUBHELI OLMA SEBEBI: Sürətli Məkan Dəyişikliyi
+
+Emeliyyat #2:
+  - Transaction ID: t016
+  - User ID: u008
+  - Nov: Transaction
+  - Mebleg: 90.00 AZN
+  - Zaman: 2025-09-05 19:30:00
+  - Mekan: CREDIT_CARD
+  - SUBHELI OLMA SEBEBI: Sürətli Məkan Dəyişikliyi
+
+Emeliyyat #3:
+  - Transaction ID: t015
+  - User ID: u008
+  - Nov: Transaction
+  - Mebleg: 125.00 AZN
+  - Zaman: 2025-09-05 19:00:00
+  - Mekan: BANK_TRANSFER
+  - SUBHELI OLMA SEBEBI: Sürətli Məkan Dəyişikliyi
+
+Emeliyyat #4:
+  - Transaction ID: t018
+  - User ID: u009
+  - Nov: Transaction
+  - Mebleg: 6500.00 AZN
+  - Zaman: 2025-09-05 21:00:00
+  - Mekan: BANK_TRANSFER
+  - SUBHELI OLMA SEBEBI: Sürətli Məkan Dəyişikliyi, Yüksək Məbləğ
+
+Emeliyyat #5:
+  - Transaction ID: t017
+  - User ID: u004
+  - Nov: Transaction
+  - Mebleg: 5001.00 AZN
+  - Zaman: 2025-09-05 20:15:00
+  - Mekan: CREDIT_CARD
+  - SUBHELI OLMA SEBEBI: Yüksək Məbləğ
+
+Emeliyyat #6:
+  - Transaction ID: t011
+  - User ID: u005
+  - Nov: Transaction
+  - Mebleg: 7800.00 AZN
+  - Zaman: 2025-09-05 11:30:00
+  - Mekan: BANK_TRANSFER
+  - SUBHELI OLMA SEBEBI: Yüksək Məbləğ
+
+Emeliyyat #7:
+  - Transaction ID: t014
+  - User ID: u001
+  - Nov: Transaction
+  - Mebleg: 9250.00 AZN
+  - Zaman: 2025-09-05 16:00:00
+  - Mekan: BANK_TRANSFER
+  - SUBHELI OLMA SEBEBI: Yüksək Məbləğ
+
+========================================
+           HESABATIN SONU
+========================================
