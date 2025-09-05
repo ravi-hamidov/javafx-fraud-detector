@@ -1,6 +1,5 @@
 <div style="display:flex;justify-content:center;">
-
-```markdown
+<pre>
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
 │                                                                                      │
 │                                       UI (JavaFX)                                    │
@@ -16,8 +15,7 @@
 │                                                                                      │
 │                                                                                      │
 └──────────────────────────────────────────────────────────────────────────────────────┘
-```
-
+</pre>
 </div>
 
 # Firildaqciligin Askarlanmasi (Fraud Detection) Sistemi – Proyekt Senedi
