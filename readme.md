@@ -25,11 +25,11 @@ Bu sened, firildaqci maliyye emeliyyatlarini askarlamaq ucun nezerde tutulmus pr
 Sistem, maliyye emeliyyatları haqqinda melumatlari CSV faylindan oxuyaraq, evvelceden teyin edilmis qaydalara esasen subheli emeliyyatlari mueyyen edir. Neticeler hem istifadeciye **qrafik interfeys (GUI)** vasitesile teqdim edilir, hem de detalli sekilde hesabat faylina yazilir.
 
 **Sistemin Is Prinsipi:**
-Proqram **hadiseye-yonelik (event-driven)** prinsipe esaslanir ve iki esas hisseden ibaretdir: Frontend (UI) ve Backend (Mentiq).
+Proqram **hadiseye-yonelik (event-driven)** prinsipe esaslanir ve iki esas hisseden ibaretdir: Frontend (UI) ve Backend.
 
 - **Istifadeci Interfeysi (Frontend):** Proqram ise dusdukde istifadecini JavaFX ile yaradilmis pencere qarsilayir.
 - **Analizin Basladilmasi:** Istifadeci "Analize Basla" duymesine klikleyerek prosesi basladir.
-- **Arxa Plan Emali (Backend):** Analiz prosesi istifadeci interfeysini "dondurmamaq" ucun arxa planda (`Task`) ise dusur. Bu proses zamani `DataReader` fayli oxuyur ve `FraudDetector` subheli emeliyyatlari ve onlarin sebeblerini mueyyen edir.
+- **Arxa Plan (Backend):** Analiz prosesi istifadeci interfeysini "dondurmamaq" ucun arxa planda (`Task`) ise dusur. Bu proses zamani `DataReader` fayli oxuyur ve `FraudDetector` subheli emeliyyatlari ve onlarin sebeblerini mueyyen edir.
 - **Neticenin Teqdim Edilmesi:** Analiz bitdikden sonra neticeler hem penceredeki cedvelde gosterilir, hem de `ReportGenerator` vasitesile `.txt` faylina yazilir.
 
 **Giris (Input):**
