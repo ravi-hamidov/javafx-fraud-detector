@@ -1,7 +1,7 @@
 ========================================
-       FIRILDAQCILIQ HESABATI
+       FIRILDAQCILIQ HESABATI 
 ========================================
-Hesabat Tarixi: 2025-09-05 05:44:56
+Hesabat Tarixi: 2025-09-05 06:31:22
 Askarlanan Subheli Emeliyyatlarin Sayi: 7
 ----------------------------------------
 
@@ -12,7 +12,7 @@ Emeliyyat #1:
   - Mebleg: 50.00 AZN
   - Zaman: 2025-09-05 21:15:00
   - Mekan: CREDIT_CARD
-  - SUBHELI OLMA SEBEBI: Sürətli Məkan Dəyişikliyi
+  - SUBHELI OLMA SEBEBI: Shubheli Mekan Deyishikliyi
 
 Emeliyyat #2:
   - Transaction ID: t016
@@ -21,7 +21,7 @@ Emeliyyat #2:
   - Mebleg: 90.00 AZN
   - Zaman: 2025-09-05 19:30:00
   - Mekan: CREDIT_CARD
-  - SUBHELI OLMA SEBEBI: Sürətli Məkan Dəyişikliyi
+  - SUBHELI OLMA SEBEBI: Shubheli Mekan Deyishikliyi
 
 Emeliyyat #3:
   - Transaction ID: t015
@@ -30,7 +30,7 @@ Emeliyyat #3:
   - Mebleg: 125.00 AZN
   - Zaman: 2025-09-05 19:00:00
   - Mekan: BANK_TRANSFER
-  - SUBHELI OLMA SEBEBI: Sürətli Məkan Dəyişikliyi
+  - SUBHELI OLMA SEBEBI: Shubheli Mekan Deyishikliyi
 
 Emeliyyat #4:
   - Transaction ID: t018
@@ -39,7 +39,7 @@ Emeliyyat #4:
   - Mebleg: 6500.00 AZN
   - Zaman: 2025-09-05 21:00:00
   - Mekan: BANK_TRANSFER
-  - SUBHELI OLMA SEBEBI: Sürətli Məkan Dəyişikliyi, Yüksək Məbləğ
+  - SUBHELI OLMA SEBEBI: Shubheli Mekan Deyishikliyi, Yuksek Mebleg
 
 Emeliyyat #5:
   - Transaction ID: t017
@@ -48,7 +48,7 @@ Emeliyyat #5:
   - Mebleg: 5001.00 AZN
   - Zaman: 2025-09-05 20:15:00
   - Mekan: CREDIT_CARD
-  - SUBHELI OLMA SEBEBI: Yüksək Məbləğ
+  - SUBHELI OLMA SEBEBI: Yuksek Mebleg
 
 Emeliyyat #6:
   - Transaction ID: t011
@@ -57,7 +57,7 @@ Emeliyyat #6:
   - Mebleg: 7800.00 AZN
   - Zaman: 2025-09-05 11:30:00
   - Mekan: BANK_TRANSFER
-  - SUBHELI OLMA SEBEBI: Yüksək Məbləğ
+  - SUBHELI OLMA SEBEBI: Yuksek Mebleg
 
 Emeliyyat #7:
   - Transaction ID: t014
@@ -66,7 +66,7 @@ Emeliyyat #7:
   - Mebleg: 9250.00 AZN
   - Zaman: 2025-09-05 16:00:00
   - Mekan: BANK_TRANSFER
-  - SUBHELI OLMA SEBEBI: Yüksək Məbləğ
+  - SUBHELI OLMA SEBEBI: Yuksek Mebleg
 
 ========================================
            HESABATIN SONU
