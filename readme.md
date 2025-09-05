@@ -58,9 +58,9 @@ Proqram **hadiseye-yonelik (event-driven)** prinsipe esaslanir ve iki esas hisse
 
 ## 3. Proyektin Arxitekturasi
 
-Proyekt **Frontend** ve **Backend** olmaqla iki mentiqi katmana bolunub.
+Proyekt **Frontend** ve **Backend** olmaqla iki mentiqi hisse'ye bolunub.
 
-### Backend (Mentiq Katmani)
+### Backend
 
 Proqramin "beyni" rolunu oynayir.
 
@@ -74,7 +74,7 @@ Proqramin "beyni" rolunu oynayir.
   - `FraudDetector.java`: Qaydalari tetbiq ederek `List<FraudResult>` qaytarir.
   - `ReportGenerator.java`: `List<FraudResult>` obyektini qebul edib detalli `.txt` hesabati yaradir.
 
-### Frontend (Teqdimat Katmani - JavaFX)
+### Frontend
 
 Istifadeci ile vizual elaqeni temin edir.
 
