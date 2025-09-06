@@ -15,12 +15,12 @@ public class DataReader {
         List<Transaction> transactions = new ArrayList<>();
         try (BufferedReader reader = Files.newBufferedReader(Paths.get(filePath))) {
             reader.readLine();
-
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] data = line.split(",");
-                if (data.length < 6) continue;
-
+                if (data.length < 6) {
+                    continue;
+                }
                 try {
                     String transactionId = data[0];
                     String userId = data[1];
