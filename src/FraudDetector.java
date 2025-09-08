@@ -6,18 +6,17 @@ public class FraudDetector {
     private static final long SHORT_TIME_MINUTES = 60;
 
     public List<FraudResult> detectFraud(List<? extends Transaction> allTransactions) {
-        Map<String, FraudResult> fraudulentResultsMap = new HashMap<>();
 
+        // High amount tester Polis
+        Map<String, FraudResult> fraudulentResultsMap = new HashMap<>();
         for (Transaction transaction : allTransactions) {
             if (transaction.getAmount() > HIGH_AMOUNT_THRESHOLD) {
-                fraudulentResultsMap
-                        .computeIfAbsent(transaction.getTransactionId(), k -> new FraudResult(transaction))
-                        .addReason(FraudReason.HIGH_AMOUNT);
+                addFraudReasonToMap(fraudulentResultsMap, transaction, FraudReason.HIGH_AMOUNT);
             }
         }
 
+        // Rapid location tester Polis
         Map<String, List<Transaction>> transactionsByUser = groupTransactionsByUser(allTransactions);
-
         for (List<Transaction> userTransactions : transactionsByUser.values()) {
             userTransactions.sort(Comparator.comparing(Transaction::getTimestamp));
             if (userTransactions.size() > 1) {
@@ -29,13 +28,8 @@ public class FraudDetector {
                     boolean isDifferentLocation = !current.getLocation().equals(next.getLocation());
 
                     if (minutesBetween < SHORT_TIME_MINUTES && isDifferentLocation) {
-                        fraudulentResultsMap
-                                .computeIfAbsent(current.getTransactionId(), k -> new FraudResult(current))
-                                .addReason(FraudReason.RAPID_LOCATION_CHANGE);
-
-                        fraudulentResultsMap
-                                .computeIfAbsent(next.getTransactionId(), k -> new FraudResult(next))
-                                .addReason(FraudReason.RAPID_LOCATION_CHANGE);
+                        addFraudReasonToMap(fraudulentResultsMap, current, FraudReason.RAPID_LOCATION_CHANGE);
+                        addFraudReasonToMap(fraudulentResultsMap, next, FraudReason.RAPID_LOCATION_CHANGE);
                     }
                 }
             }
@@ -49,5 +43,20 @@ public class FraudDetector {
             map.computeIfAbsent(t.getUserId(), k -> new ArrayList<>()).add(t);
         }
         return map;
+    }
+
+    private void addFraudReasonToMap(Map<String, FraudResult> map, Transaction transaction, FraudReason reason) {
+        FraudResult currentResult = map.get(transaction.getTransactionId());
+        Set<FraudReason> newReasons;
+
+        if (currentResult != null) {
+            newReasons = new HashSet<>(currentResult.reasons());
+        } else {
+            newReasons = new HashSet<>();
+        }
+        newReasons.add(reason);
+
+        FraudResult updatedResult = new FraudResult(transaction, newReasons);
+        map.put(transaction.getTransactionId(), updatedResult);
     }
 }

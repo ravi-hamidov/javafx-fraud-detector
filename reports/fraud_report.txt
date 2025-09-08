@@ -1,7 +1,7 @@
 ========================================
        FIRILDAQCILIQ HESABATI 
 ========================================
-Hesabat Tarixi: 2025-09-05 06:31:22
+Hesabat Tarixi: 2025-09-08 22:36:01
 Askarlanan Subheli Emeliyyatlarin Sayi: 7
 ----------------------------------------
 
@@ -12,7 +12,7 @@ Emeliyyat #1:
   - Mebleg: 50.00 AZN
   - Zaman: 2025-09-05 21:15:00
   - Mekan: CREDIT_CARD
-  - SUBHELI OLMA SEBEBI: Shubheli Mekan Deyishikliyi
+  - SUBHELI OLMA SEBEBI: Suretli Mekan Deyishikliyi
 
 Emeliyyat #2:
   - Transaction ID: t016
@@ -21,7 +21,7 @@ Emeliyyat #2:
   - Mebleg: 90.00 AZN
   - Zaman: 2025-09-05 19:30:00
   - Mekan: CREDIT_CARD
-  - SUBHELI OLMA SEBEBI: Shubheli Mekan Deyishikliyi
+  - SUBHELI OLMA SEBEBI: Suretli Mekan Deyishikliyi
 
 Emeliyyat #3:
   - Transaction ID: t015
@@ -30,7 +30,7 @@ Emeliyyat #3:
   - Mebleg: 125.00 AZN
   - Zaman: 2025-09-05 19:00:00
   - Mekan: BANK_TRANSFER
-  - SUBHELI OLMA SEBEBI: Shubheli Mekan Deyishikliyi
+  - SUBHELI OLMA SEBEBI: Suretli Mekan Deyishikliyi
 
 Emeliyyat #4:
   - Transaction ID: t018
@@ -39,7 +39,7 @@ Emeliyyat #4:
   - Mebleg: 6500.00 AZN
   - Zaman: 2025-09-05 21:00:00
   - Mekan: BANK_TRANSFER
-  - SUBHELI OLMA SEBEBI: Shubheli Mekan Deyishikliyi, Yuksek Mebleg
+  - SUBHELI OLMA SEBEBI: Yuksek Mebleg, Suretli Mekan Deyishikliyi
 
 Emeliyyat #5:
   - Transaction ID: t017

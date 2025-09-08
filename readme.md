@@ -86,7 +86,7 @@ Istifadeci ile vizual elaqeni temin edir.
 - **Komekci "View" Sinifi:**
   - `FraudResultView.java`: Backend-den gelen `FraudResult` obyektini JavaFX `TableView` cedvelinin anladigi formata cevirir.
 
-## 4. Tetbiq Olunan Esas Konseptler
+## 4. Tetbiq Olunan Esas Konseptler.
 
 - **OOP (Obyekt Yonumlu Proqramlasdirma):** Mesuliyyetlerin siniflere bolunmesi, **Irsiyyet (Inheritance)** ve **Polimorfizm**.
 - **Exception Handling:** Fayl emeliyyatları ve melumatlarin pars edilmesi zamani yaranan xetalari idare etmek.

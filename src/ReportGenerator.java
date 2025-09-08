@@ -24,9 +24,9 @@ public class ReportGenerator {
             } else {
                 int count = 1;
                 for (FraudResult result : fraudulentResults) {
-                    Transaction t = result.getTransaction();
 
-                    String reasons = result.getReasons().stream()
+                    Transaction t = result.transaction();
+                    String reasons = result.reasons().stream()
                             .map(FraudReason::getDescription)
                             .collect(Collectors.joining(", "));
 
